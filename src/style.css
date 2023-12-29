@@ -22,3 +22,13 @@ a {
   font-size: 16px;
   padding: 15px 20px;
 }
+.search-form-button {
+  background: #885df1;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+
