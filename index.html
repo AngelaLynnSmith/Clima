@@ -15,15 +15,20 @@
 <body>
     <div class="weather-app">
         <header>
-            <form class="search-form">
-                <input type="search" placeholder="Enter a city.." required class="search-form-input" />
-                <input type="submit" value="Search" class="search-form-button" />
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city.." 
+                required
+                id="search-form-input" 
+                class="search-form-input" />
+                <input type="submit" value="Search" 
+                class="search-form-button" />
             </form>
         </header>
         <main>
         <div class="weather-app-data">
             <div>
-                <h1 class="weather-app-city">Esparza</h1>
+                <h1 class="weather-app-city"
+                id="city">Esparza</h1>
                 <p class="weather-app-details">
                         Friday 14:00, partly cloudy
                         <br />
@@ -43,7 +48,7 @@
         <a href="https://github.com/AngelaLynnSmith/Clima"target="_blank"> open-sourced on GitHub</a>, and
         <a href="https://el-clima-app-122923.netlify.app/"target="_blank"> hosted on Netlify.</a>
     </footer>
-    <script src="script.js"></script>
+    <script src="src/index.js"></script>
     </div>
 </body>
 </html>
